@@ -1,0 +1,7 @@
+STA 15
+TCP 25252
+
+HR_INT	1 1000 	0  0  12000 6500  AO @KolicinaVode 
+DO_REG  1 2000  0  0 	1     0   DO @Stop 
+DO_REG  1 2002  0  0 	1     0   DO @Ventil1 
+DO_REG  2 2005  0  0 	1     0   DO @Pumpe 
